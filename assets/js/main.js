@@ -239,17 +239,6 @@ function validateEmail()
     emailError.innerHTML = '<i class="uil uil-check-circle"></i>';
     return true;
 }
-// function validateSubject()
-// {
-//     var subject = document.getElementById('contact-subject').value;
-//     if(subject.length==0)
-//     {
-//         submitError.innerHTML = 'field is required';
-//         return false;
-//     }
-//     submitError.innerHTML= '<i class="uil uil-check-circle"></i>';
-//     return true;
-// }
 function validateMessage()
 {
     var message = document.getElementById('contact-message').value;
